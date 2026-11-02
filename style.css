@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    outline: none;
+}
+
+body{
+    background-color: #8A51FC;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 12vw;
+    display: block;
+    margin: 2vh auto;
+
+}
+
+main{
+    background-color: #F4F4F4;
+    width: 30%;
+    max-width: 19vw;
+    margin: 5vh auto;
+    padding: 3vh 1vw;
+    border-radius: 1vw;
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+}
+
+
+#convert{
+    font-size: 1vw;
+    font-weight: 700;
+    color: white;
+    background-color: #772FD3;
+    height: 46px;;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+}
+
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.7;
+}
+
+
+
+section{
+    text-align: center;
+    outline: 1px #8A51FC solid;
+    border-radius: 1vw;
+    padding: 1vh 0 1vh;
+}
+
+select,input{
+    border-radius: 0.3vw;
+    color: #555555;
+    width: 100%;
+    height: 40px;
+    padding-left: 1.4vw;
+    font-size: 0.7vw;
+    border: 1px solid #BBBBBB;
+    appearance: none;
+    cursor: pointer;
+}
+input{
+    cursor: text;}
+
+
+.symbol{
+    max-width: 2.8vw;
+    margin: 1vh auto 0;    
+}
+
+#arrow{
+    max-width: 2vw;
+}
+.moeda,.tipo-moeda{
+    height: 18px;
+    font-size: 0.7vw;
+    font-weight: 400;
+    color: #777777;
+}
+
